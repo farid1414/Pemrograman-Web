@@ -1,0 +1,24 @@
+ thead tr{
+	float: center;
+	background: red;
+	font-size: 20px;
+}
+.content table{
+	border: 2px solid white;
+	text-align: center;
+}
+.content table tbody tr{
+	color: white;
+	background: rgb(0, 0, 128,.5);
+}
+.btn{
+	font-size: 30px;
+	color: green;
+	background:white;
+	text-decoration: none;
+	transition: 0.5s;
+	border-radius: 2px;
+	padding: 4px;
+	margin: 4px;
+}
+

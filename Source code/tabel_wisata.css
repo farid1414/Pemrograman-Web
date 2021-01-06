@@ -1,0 +1,147 @@
+thead tr{
+	float: center;
+	background: red;
+	font-size: 20px;
+}
+.content table{
+	border: 2px solid white;
+	text-align: center;
+}
+.content table tbody tr{
+	color: white;
+	background: rgb(0, 0, 128,.5);
+}
+.btn{
+	font-size: 30px;
+	color: green;
+	background:white;
+	text-decoration: none;
+	transition: 0.5s;
+	border-radius: 2px;
+	padding: 4px;
+	margin: 4px;
+	box-shadow: 2px;
+	cursor: pointer;
+}
+.btn1{
+	background: rgb(255, 0, 0);
+	border:1px  solid black;
+	color: white;
+	border-radius: 2px;
+	font-size: 20px;
+	cursor: pointer;
+	border-radius: 30px;
+}
+
+
+/*=====  Modal atau popup untuk registrasi pembeli ========= */
+
+.modal {
+  display: none; 
+  position: fixed;
+  z-index: 1; 
+  left: 250px;
+  top: 95px;
+  width: 55% ; 
+  height: 100%;
+  overflow: auto;
+}
+
+
+.modal-content {
+  margin: 15% auto;
+  padding: 20px;
+  width: 80%; 
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 30px;
+  font-weight: bold;
+  top: 2px;
+  color: white;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Modal atau popup Header */
+.modal-header {
+  padding: 2px 16px;
+  background-color:rgb(0, 0, 205,.6);
+  color: white;
+}
+.modal-header h2{
+	color:rgb(255, 228, 225);
+	font-size: 25px;
+	text-align: center;
+	font-family: 'Bungee', cursive;
+}
+.modal-body {
+	padding: 2px 16px;
+	margin: 2px;
+	overflow: hidden;
+	margin-right: auto;
+	margin-left: auto;
+}
+.modal-body label{
+	padding: 2px;
+	z-index: 1;
+	font-size: 20px;
+	font-family:'Russo One', sans-serif;
+}
+.modal-body input{ 
+	height: 30px;
+	display: block;
+	width: 60%;
+	border: 3px solid rgb(25, 25, 112,.7);
+	overflow: hidden;
+	border-radius: 15px;
+	z-index: 3;
+	padding-left: 32px;
+	background-color: transparent;
+}
+ .modal-body input::placeholder {
+	color: black;
+}
+.modal-footer {
+  padding: 2px 16px;
+  background-color: #5cb85c;
+  height: 40px;
+  color: white;
+}
+.modal-footer .btn1{
+	float: right;
+	padding-top: 4px;
+	border: 2px solid black;
+	background: red;
+	font-size: 20px;
+	border-radius: 10px;
+	top: -3px;
+}
+.modal-footer .btn1:hover{
+	background: white;
+	color: black;
+}
+
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}

@@ -1,0 +1,65 @@
+* {box-sizing: border-box}
+
+body{
+  background-image: url(img/bgregis.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+label{
+  font-size: 25px;
+  font-family: 'Neuton', serif;
+}
+#card {
+  background:   rgb(255, 250, 250,.9);
+  border-radius: 8px;
+  box-shadow: 1px 2px 8px rgba(0, 0, 0, 0,.5);
+  margin: 6rem auto 8.1rem auto;
+  width: 40%;
+  height: 100%;
+}
+.container {
+  padding: 16px;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: rgb(220, 220, 220);
+}
+h1{
+  text-align: center;
+  font-family: 'Lobster', cursive; 
+  font-size: 50px;
+}
+p{
+  font-family: 'Viga', sans-serif;
+}
+
+hr {
+  border: 1px solid #1E90FF;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+.registerbtn {
+  background-color: red;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+span {
+  font-size: 13px;
+  color: red;
+  font-family: 'Viga', sans-serif;
+  float:center;
+}
